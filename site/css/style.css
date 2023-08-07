@@ -1,0 +1,197 @@
+@import url('https://fonts.cdnfonts.com/css/uni-sans-regular');
+
+body {
+ font-family: 'Uni Sans Demo', sans-serif;
+ margin: 0;
+ padding: 20;
+ background: rgb(231, 229, 229); 
+ overflow-x: hidden;
+}
+ 
+header {
+ width:100%;
+ position:fixed;
+ background-color: #13864F;
+ color: #FFF;
+ padding:20px;
+ margin: -20px auto;
+ text-align: center; 
+}
+ .login {
+  display: block;
+  text-align: right;
+  margin-right: 70px;
+  
+}
+ .login a{
+  font-size: 20px;
+  text-decoration: none;
+  color :white;
+  font-weight: 600;
+  
+ }
+h1 {
+ margin: 0;
+ font-size: 28px; 
+}
+ 
+.download {
+ 
+ margin: 20px;
+ text-align: center;
+
+}
+.download h2{
+ font-size: 50px;
+ 
+
+}
+.download p{
+ font-size: 30px;
+ font-weight: 500; 
+}
+ 
+.download img{
+ border-radius: 50%;
+ background-color: azure;
+ margin-top:80px;
+ margin-bottom:20px; 
+}
+ 
+.download-button {
+ display: inline-block;
+ padding: 20px 30px;
+ background:#13864F;
+ color: #FFF;
+ text-decoration: none;
+ border-radius: 4px;
+ font-size: 22px;
+
+}
+
+.about {
+ background-color: #000;
+ padding: 50px;
+ color: #fff;
+ text-align: center;
+ 
+
+}
+
+.about .why {
+ margin-top: 50px;
+ font-weight: 600;
+ font-size: 50px;
+
+}
+
+.about .whyp {
+ margin-top: 30px;
+ font-size: 24px;
+
+}
+
+
+
+footer {
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ width: 100%;
+ background-color: black;
+ color: #FFF;
+ text-align: center;
+ padding: 20px;
+
+} 
+ 
+footer {
+ 
+ background-color: #13864F;
+ color: #FFF;
+ text-align: center;
+ padding: 10px;
+ margin-top:230px;
+ 
+
+}
+
+.footer {
+
+ bottom:0;
+ left:0;
+ width:100%;
+ text-align:center;
+ margin:0;
+ padding-top:-30px;
+
+}
+ 
+.download-button {
+ display: inline-block;
+ padding: 20px 30px;
+ background: #13864F;
+ color: #fff;
+ text-decoration: none;
+ border-radius: 4px;
+ font-size: 22px;
+ transition: all 0.3s ease; 
+
+}
+
+.download-button:hover {
+ font-weight: 600;
+ padding: 25px 40px;
+ background: #13864F; 
+ transform: scale(1.05);
+}
+ 
+
+ 
+.header h1 a {
+ color: white;
+
+}
+
+.plano-container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.plano{
+  text-align: center;
+  width: 50px;
+  height: 200px;
+}
+.plano-container a{
+  text-decoration: none;
+  color: white;
+  
+}
+.plano-container i{
+  padding: 10px;
+  color: #052D49;
+  font-size: 50px;}
+
+.plano-container:hover{
+  transform: scale(1.1);
+ transition: 0.3s; 
+}
+.botao {
+  display: inline-block;
+  padding: 20px 30px;
+  background-color: #F96854;
+  color: #FFFFFF;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+/* Opcional: Estilizar o ícone usando a classe "fa-patreon" se você estiver usando a biblioteca FontAwesome */
+.fa-patreon {
+  margin-right: 5px;
+}
